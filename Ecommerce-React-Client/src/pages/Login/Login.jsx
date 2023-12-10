@@ -7,8 +7,8 @@ export const Login = () => {
         <main className='contenedor-Login'>
             <section className='login'>
                 <section className='info'>
-                    <p className='txt-1'>Gracias por visitarnos</p>
-                    <h2>Bienvenid@ de nuevo a STYLIFY</h2>
+                    <p className='txt-1'> <span className='palabra-clave'>Gracias</span> por visitarnos</p>
+                    <h2>Bienvenid@ de nuevo a <span className='palabra-clave'>STYLIFY</span></h2>
                     <hr />
 
                     <p className='txt-2'>
@@ -36,6 +36,13 @@ export const Login = () => {
                         <section className='enlace-contraseña'>
                             <a href="#" className='enlace'>¿Has olvidado la contraseña?</a>
                             <NavLink to={'/registro'} className='enlace'>Aún no tengo cuenta <span className='palabra-clave'>Registrarme</span></NavLink>
+                        </section>
+                        <section className='back-button'>
+                            <NavLink
+                                to={'/'} className='enlace'>
+                                Seguir comprando
+                            </NavLink>
+
                         </section>
                     </form>
                 </section>

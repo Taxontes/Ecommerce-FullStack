@@ -1,10 +1,10 @@
-.contenedor-Login {
+/* .contenedor-Login {
     background: linear-gradient(to right, #c59b2d, #885a20);
     height: 100vh;
     display: flex;
     flex-direction: column;
    
-}
+} */
 
 .login {
     display: flex;
@@ -116,10 +116,22 @@
 
 .enlace {
     text-decoration: none;
-    color: #c59b2d;
+    color: #000;
+    
+    &:hover {
+            color: #c59b2d;
+        }
 
 }
 
 .palabra-clave {
-    color: #000;
+    color: #c59b2d;
+}
+
+.back-button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
 }

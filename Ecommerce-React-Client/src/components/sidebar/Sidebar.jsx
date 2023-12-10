@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import { IoHomeSharp } from "react-icons/io5";
+import { NavLink } from 'react-router-dom'
 import { FaUser } from "react-icons/fa";
 import { GiClothes } from "react-icons/gi";
 import { MdSpaceDashboard } from "react-icons/md";
@@ -49,10 +49,10 @@ export const Sidebar = () => {
                         </li>
                         <div className='enlace-salir'>
                             <li className='enlaces-sidebar'>
-                                <a href="#" className='enlace-sidebar'>
+                                <NavLink to={'/'} className='enlace-sidebar'>
                                     <i className="icono-sidebar"><IoIosLogOut /></i>
                                     <span className='nav-iten'>Salir</span>
-                                </a>
+                                </NavLink>
                             </li>
 
                         </div>
