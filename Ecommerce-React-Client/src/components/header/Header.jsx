@@ -16,7 +16,7 @@ export const Header = () => {
                     <nav className='navbar'>
                         <ul>
                             <li><NavLink to={'/'}>Inicio</NavLink></li>
-                            <li><NavLink to={'/servicios'}>Servicios</NavLink></li>
+                            <li><NavLink to={'/dashboard'}>Servicios</NavLink></li>
                             <li><NavLink to={'/productos'}>Productos</NavLink></li>
                             <li><NavLink to={'/contacto'}>Contácto</NavLink></li>
                         </ul>
