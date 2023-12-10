@@ -15,7 +15,7 @@ export const Sidebar = () => {
                     <ul>
                         <li>
                             <a href="#" className='logo-sidebar'>STYLIFY</a>
-                           <span className='nav-iten-main'>Panel de Administrador</span>
+                           <span className='nav-iten-main'></span>
                         </li>
                         <li className='enlaces-sidebar'>
                             <a href="#" className='enlace-sidebar'>
@@ -33,6 +33,12 @@ export const Sidebar = () => {
                             <a href="#" className='enlace-sidebar'>
                                 <i className="icono-sidebar"><FaUser /></i>
                                 <span className='nav-iten'>Clientes</span>
+                            </a>
+                        </li>
+                        <li className='enlaces-sidebar'>
+                            <a href="#" className='enlace-sidebar'>
+                                <i className="icono-sidebar"><FaShuttleVan /></i>
+                                <span className='nav-iten'>Pedidos</span>
                             </a>
                         </li>
                         <li className='enlaces-sidebar'>
