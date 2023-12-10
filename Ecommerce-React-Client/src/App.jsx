@@ -11,13 +11,10 @@ function App() {
 
   return (
     <>
-     
-
         <Header />
         <Ofertas />
         <Products />
         <Footer />
-     
     </>
   )
 }

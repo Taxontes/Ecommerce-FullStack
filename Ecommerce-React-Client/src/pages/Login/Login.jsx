@@ -1,13 +1,14 @@
 import React from 'react'
+import { NavLink} from 'react-router-dom'
 import './login.css'
 
 export const Login = () => {
     return (
-        <>
-            <main className='login'>
+        <main className='contenedor-Login'>
+            <section className='login'>
                 <section className='info'>
                     <p className='txt-1'>Gracias por visitarnos</p>
-                    <h2>Bienvenido de nuevo</h2>
+                    <h2>Bienvenid@ de nuevo a STYLIFY</h2>
                     <hr />
 
                     <p className='txt-2'>
@@ -34,12 +35,12 @@ export const Login = () => {
                         </section>
                         <section className='enlace-contraseña'>
                             <a href="#" className='enlace'>¿Has olvidado la contraseña?</a>
-                            <a href="#" className='enlace'>Aún no tengo cuenta <span className='palabra-clave'>Registrarme</span></a>
+                            <NavLink to={'/registro'} className='enlace'>Aún no tengo cuenta <span className='palabra-clave'>Registrarme</span></NavLink>
                         </section>
                     </form>
                 </section>
-            </main>
+            </section>
 
-        </>
+        </main>
     )
 }
